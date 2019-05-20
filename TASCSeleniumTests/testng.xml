@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.google.TestScripts.AcceptibleTest"/>
+      <class name="com.google.TestScripts.AbcenseTest"/>
+      <class name="com.google.TestScripts.SearchResultsTest"/>
+      <class name="com.google.TestScripts.MispellingTest"/>
+      <class name="com.google.TestScripts.AutoCompleteTest"/>
+      <class name="com.google.TestScripts.UnderateTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.google.TestScripts.UnderateTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBroswer"/>
+          <include name="verifyUnderateTest"/>
+        </methods>
+      </class> <!-- com.google.TestScripts.UnderateTest -->
+      <class name="com.google.TestScripts.MispellingTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBroswer"/>
+          <include name="verifyMispellingTest"/>
+        </methods>
+      </class> <!-- com.google.TestScripts.MispellingTest -->
+      <class name="com.google.TestScripts.AbcenseTest">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="closeBroswer"/>
+          <include name="verifyAbcenseTest"/>
+        </methods>
+      </class> <!-- com.google.TestScripts.AbcenseTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
