@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.google.TestScripts.GoogleSearchTest">
+      <class name="com.google.TestScripts.DidYouMean">
         <methods>
-          <include name="verifyGoogleSearch"/>
+          <include name="verifyDidYouMeanTest"/>
           <include name="openBrowser"/>
-          <include name="closeBroswer"/>
         </methods>
-      </class> <!-- com.google.TestScripts.GoogleSearchTest -->
+      </class> <!-- com.google.TestScripts.DidYouMean -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

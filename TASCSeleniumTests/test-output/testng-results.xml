@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18812" started-at="2019-05-20T01:30:23Z" finished-at="2019-05-20T01:30:42Z">
+  <suite name="Default suite" duration-ms="25631" started-at="2019-05-24T02:26:40Z" finished-at="2019-05-24T02:27:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18812" started-at="2019-05-20T01:30:23Z" finished-at="2019-05-20T01:30:42Z">
-      <class name="com.google.TestScripts.AcceptibleTest">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.google.TestScripts.AcceptibleTest@7ac7a4e4]" name="openBrowser" is-config="true" duration-ms="13761" started-at="2019-05-19T20:30:23Z" finished-at="2019-05-19T20:30:37Z">
+    <test name="Default test" duration-ms="25631" started-at="2019-05-24T02:26:40Z" finished-at="2019-05-24T02:27:06Z">
+      <class name="com.google.TestScripts.AutoCompleteTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.google.TestScripts.AutoCompleteTest@457e2f02]" name="openBrowser" is-config="true" duration-ms="15200" started-at="2019-05-23T21:26:40Z" finished-at="2019-05-23T21:26:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="verifyGoogleSearch()[pri:0, instance:com.google.TestScripts.AcceptibleTest@7ac7a4e4]" name="verifyGoogleSearch" duration-ms="4725" started-at="2019-05-19T20:30:37Z" finished-at="2019-05-19T20:30:41Z">
+        <test-method status="PASS" signature="verifyAutoCompleteDropDown()[pri:4, instance:com.google.TestScripts.AutoCompleteTest@457e2f02]" name="verifyAutoCompleteDropDown" duration-ms="7457" started-at="2019-05-23T21:26:55Z" finished-at="2019-05-23T21:27:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyGoogleSearch -->
-        <test-method status="PASS" signature="closeBroswer()[pri:0, instance:com.google.TestScripts.AcceptibleTest@7ac7a4e4]" name="closeBroswer" is-config="true" duration-ms="262" started-at="2019-05-19T20:30:41Z" finished-at="2019-05-19T20:30:42Z">
+        </test-method> <!-- verifyAutoCompleteDropDown -->
+        <test-method status="PASS" signature="closeBroswer()[pri:0, instance:com.google.TestScripts.AutoCompleteTest@457e2f02]" name="closeBroswer" is-config="true" duration-ms="2901" started-at="2019-05-23T21:27:03Z" finished-at="2019-05-23T21:27:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBroswer -->
-      </class> <!-- com.google.TestScripts.AcceptibleTest -->
+      </class> <!-- com.google.TestScripts.AutoCompleteTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

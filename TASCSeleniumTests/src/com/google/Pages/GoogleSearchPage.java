@@ -22,9 +22,9 @@ public class GoogleSearchPage {
 
 	}
 
-	public void googleSearch(String data) {
+	public void googleSearch(String testData) {
 
-		searchBox.sendKeys(data);
+		searchBox.sendKeys(testData);
 		googleSearchButton.click();
 		
 	}

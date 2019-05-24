@@ -10,15 +10,16 @@ import org.testng.annotations.BeforeTest;
 public class BaseTest {
 
 	WebDriver driver;
+	String siteUrl= "http://www.google.com";
 
 	@BeforeTest
 	public void openBrowser() {
 
-		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumJAVA\\AllJars\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("http://www.google.com");
+		driver.get(siteUrl);
 	}
 
 	@AfterTest

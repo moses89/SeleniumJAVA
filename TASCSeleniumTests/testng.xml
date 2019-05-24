@@ -3,12 +3,9 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="com.google.TestScripts.AcceptibleTest"/>
-      <class name="com.google.TestScripts.AbcenseTest"/>
       <class name="com.google.TestScripts.SearchResultsTest"/>
-      <class name="com.google.TestScripts.MispellingTest"/>
       <class name="com.google.TestScripts.AutoCompleteTest"/>
-      <class name="com.google.TestScripts.UnderateTest"/>
+      <class name="com.google.TestScripts.DDFTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

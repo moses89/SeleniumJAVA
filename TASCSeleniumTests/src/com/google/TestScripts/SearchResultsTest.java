@@ -15,12 +15,11 @@ public class SearchResultsTest extends BaseTest {
 	String attribute= "href";
 	
 	@Test(priority = 5)
-	public void verifySearchResults(){
+	public void verifySearchResults() throws InterruptedException{
 		
 		
 		GoogleSearchPage search = new GoogleSearchPage(driver);
 		search.googleSearch(data);
-		
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a#pnnext")));
 		List<WebElement> results = driver.findElements(By.cssSelector("h3.LC20lb"));
